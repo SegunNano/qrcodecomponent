@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | QR code component</title>
+  
+  <style>
+
+    html {
+      font-size: 16px;
+    }
+
+    * {
+      box-sizing: border-box;
+      /* margin: 0;
+      padding: 0; */
+      font-family: 'Outfit', sans-serif;
+    }
+
+    /* typography */
+    body {
+      background-color: hsl(212, 45%, 89%);
+      height: 100vh;
+    }
+
+    h3 {
+      color: rgba(0, 0, 0, 0.767);
+      padding-left:  1rem;
+      padding-right: 1rem;
+    }
+
+    main {
+      background-color: white;
+      width: 80%;
+      max-width: 300px;
+      padding: 1rem;
+      border-radius: 10px;
+      margin: auto;
+      text-align: center;
+      margin-top: 3%;
+      box-shadow: 0 0 10px hsl(220, 15%, 55%);
+    }
+
+
+    .picCon {
+      aspect-ratio: 1;
+      background-image: url(images/image-qr-code.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      border-radius: 10px;
+    }
+
+    /* main>div {
+      margin: 5rem, 0;
+    } */
+
+    p {
+      font-size: 15px;
+      color: hsl(220, 15%, 55%);
+      margin: 7rem, 0;
+      padding-left:  .5rem;
+      padding-right: .5rem;
+    } 
+
+  </style>
+</head>
+<body>
+  <main>
+    <div class="picCon"></div>
+    <div>
+      <div><h3>Improve your front-end skills by building projects</h3></div>
+      <div><p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p></div>
+    </div>
+  </main>
+</body>
+</html>
